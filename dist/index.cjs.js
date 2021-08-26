@@ -543,8 +543,8 @@ var Icon$17 = function (props) {
 };
 
 var Icon$16 = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
-        React__default['default'].createElement("image", { width: "128", height: "128", href: "/images/sushiman/logo.png" })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 256 256" }, props),
+        React__default['default'].createElement("image", { width: "256", height: "256", href: "/images/thoge/logo.png" })));
 };
 
 var Icon$15 = function (props) {
@@ -2758,9 +2758,9 @@ var useKonamiCheatCode = function (matchedCodeHandler) {
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#2fc8f2",
-    primaryBright: "#17c2f1",
-    primaryDark: "#2fc8f2",
+    primary: "#e29e3e",
+    primaryBright: "#f3b256",
+    primaryDark: "#c38328",
     secondary: "#7645D9",
     success: "#31D0AA",
     warning: "#FFB237",
@@ -2778,7 +2778,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#9A6AFF", background: "#10161c", backgroundDisabled: "#849596", backgroundAlt: "#1e262f", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#1e262f", input: "#10161c", inputSecondary: "#262130", primaryDark: "#0098A1", tertiary: "#000000b0", text: "#FFFFFF", textDisabled: "#d4d4d4", textSubtle: "#c3c5cb", borderColor: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#9A6AFF", background: "#0c0b13", backgroundDisabled: "#849596", backgroundAlt: "#13191f", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#13191f", input: "#090d10", inputSecondary: "#262130", primaryDark: "#0098A1", tertiary: "#332b19cc", text: "#FFFFFF", textDisabled: "#d4d4d4", textSubtle: "#e0dff1", borderColor: "#524B63", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
@@ -3224,8 +3224,8 @@ var Icon$j = function (props) {
 
 var Logo$2 = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
-        React__default['default'].createElement("image", { width: "128", height: "128", href: "/images/sushiman/logo.png" })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 256 256" }, props),
+        React__default['default'].createElement("image", { width: "256", height: "256", href: "/images/thoge/logo.png" })));
 };
 var LogoWithText = React__default['default'].memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
@@ -3336,7 +3336,7 @@ MenuButton.defaultProps = {
 var templateObject_1$c;
 
 var blink = styled.keyframes(templateObject_1$b || (templateObject_1$b = __makeTemplateObject(["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"], ["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"])));
-var StyledLink = styled__default['default'](reactRouterDom.Link)(templateObject_2$4 || (templateObject_2$4 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 46px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 46px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
+var StyledLink = styled__default['default'](reactRouterDom.Link)(templateObject_2$4 || (templateObject_2$4 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 60px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 60px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 60px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 60px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
@@ -3789,14 +3789,10 @@ var WalletCard = function (_a) {
         React__default['default'].createElement(Icon, { width: "32px" })));
 };
 
-var HelpLink = styled__default['default'](Link)(templateObject_1$6 || (templateObject_1$6 = __makeTemplateObject(["\n  display: flex;\n  align-self: center;\n  align-items: center;\n  margin-top: 24px;\n"], ["\n  display: flex;\n  align-self: center;\n  align-items: center;\n  margin-top: 24px;\n"])));
+styled__default['default'](Link)(templateObject_1$6 || (templateObject_1$6 = __makeTemplateObject(["\n  display: flex;\n  align-self: center;\n  align-items: center;\n  margin-top: 24px;\n"], ["\n  display: flex;\n  align-self: center;\n  align-items: center;\n  margin-top: 24px;\n"])));
 var ConnectModal = function (_a) {
     var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b;
-    return (React__default['default'].createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
-        connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
-        React__default['default'].createElement(HelpLink, { href: "https://pantyswap.gitbook.io/pantyswap", external: true },
-            React__default['default'].createElement(Icon$1b, { color: "primary", mr: "6px" }),
-            "Learn how to connect")));
+    return (React__default['default'].createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss }, connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); })));
 };
 var templateObject_1$6;
 
