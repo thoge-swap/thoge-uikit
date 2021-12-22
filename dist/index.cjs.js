@@ -3946,7 +3946,7 @@ var Menu = function (_a) {
     }, []);
     // Find the home link if provided
     // const homeLink = links.find((link) => link.label === "Home");
-    var homeLink = "https://sushimantoken.com/";
+    var homeLink = "https://thoge.app";
     return (React__default['default'].createElement(Wrapper, null,
         React__default['default'].createElement(StyledNav, { showMenu: showMenu },
             React__default['default'].createElement(Logo$1, { isPushed: isPushed, togglePush: function () { return setIsPushed(function (prevState) { return !prevState; }); }, isDark: isDark, href: homeLink }),
